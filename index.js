@@ -1,69 +1,9 @@
 let engines = [{
-    name: 'Three.js',
-    path: 'examples/threejs/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'Babylon.js',
-    path: 'examples/babylonjs/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
     name: 'Filament',
     path: 'examples/filament/index.html?category={category}&model={model}&scale={scale}&type={type}'
 },{
-    name: 'PlayCanvas',
-    path: 'examples/playcanvas/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'Cesium',
-    path: 'examples/cesium/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'ArcGISJSAPI',
-    path: 'examples/arcgisjsapi/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'AMAPJSAPI',
-    path: 'examples/amapjsapi/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'Grimore.js',
-    path: 'examples/grimoiregl/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'xeogl',
-    path: 'examples/xeogl/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'minimal-gltf-loader',
-    path: 'examples/minimal-gltf-loader/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'Khronos glTF Viewer',
-    path: 'examples/khronos-gltf-rv/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'ClayGL',
-    path: 'examples/claygl/index.html?category={category}&model={model}&scale={scale}&type={type}'
-},{
-    name: 'Hilo3d',
-    path: 'examples/Hilo3d/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'X3DOM',
-    path: 'examples/x3dom/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'CZPG.js',
-    path: 'examples/czpg/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'GLBoost',
-    path: 'examples/glboost/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'RedCube.js',
-    path: 'examples/redcube/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'RedGL',
-    path: 'examples/redgl2/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'Ashes',
-    path: 'examples/ashes3d/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
     name: 'Unity',
     path: 'examples/unity/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'pex',
-    path: 'examples/pex/index.html?category={category}&model={model}&scale={scale}&type={type}'
-}, {
-    name: 'Rhodonite',
-    path: 'examples/rhodonite/index.html?category={category}&model={model}&scale={scale}&type={type}'
 }];
 
 function queryEngines(){
