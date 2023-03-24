@@ -1,7 +1,7 @@
 let engines = [{
 
     name: 'Engine',
-    path: 'examples/filament/index.html?category={category}&model={model}&scale={scale}&type={type}'
+    path: 'examples/Engine/index.html?category={category}&model={model}&scale={scale}&type={type}'
 },{
     name: 'Unity',
     path: 'examples/unity/index.html?category={category}&model={model}&scale={scale}&type={type}'
